@@ -106,3 +106,40 @@ Overall, Week 2 gave me practical experience using MongoDB Compass for CRUD oper
 ### Portfolio Exercise
 
 ### Reflection
+---
+
+## Week 5
+
+### Lab Activities
+
+### Portfolio Exercise
+
+### Reflection
+---
+
+## Week 7
+
+### Lab Activities
+
+#### React Project Setup
+
+![Week 7 React Setup](Week7_React_Setup.png)
+
+#### Task 1 - Welcome Component
+
+![Week 7 Task 1 Welcome Component](Week7_Task1_WelcomeComponent.png)
+
+#### Task 2 - Product VAT Calculator
+
+![Week 7 Task 2 Product VAT](Week7_Task2_ProductVAT.png)
+
+### Portfolio Exercise
+In this portfolio task, I created a React functional component called DiscountCalculator.jsx. The purpose of the component is to calculate the final price of a product after a discount has been applied. I used productName and price as props so that the product information can be passed into the component from main.jsx.
+
+The component includes an input box where the user can enter a discount percentage. When the Calculate Discount button is clicked, the calculateDiscount function gets the percentage entered by the user and calculates the amount to subtract from the original price. For example, I used a Laptop with a price of £800 and entered a 20% discount. The final discounted price was £640. The calculated result is displayed below the button in bold blue text so that it can be clearly seen.
+![Week 7 Portfolio Discount Calculator](Week7_Portfolio_DiscountCalculator.png)
+
+### Reflection
+ I learned how to create and use functional components in React. I started by setting up a React project using Vite and running it on my local server. I then created a Welcome component and learned how to use props to pass my name from main.jsx to another component. This helped me understand how information can be passed between React components.
+
+I also created a Product component that calculated the VAT on a product using a value entered by the user. For the portfolio task, I used what I learned from the VAT example to create a Discount Calculator. The main challenge I had was setting up the React project because the automatic npm installation initially gave me an error. I solved this by installing the dependencies manually. Overall, this week helped me understand React functional components, props, user input and how functions can be used to perform calculations and display results on a webpage.
